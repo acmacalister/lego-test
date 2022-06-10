@@ -2,7 +2,7 @@ name: Update Local Proxy Certificates
 on:
   workflow_dispatch: ~
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 0 */45 * *"
 jobs:
   updateCerts:
     runs-on: ubuntu-latest
